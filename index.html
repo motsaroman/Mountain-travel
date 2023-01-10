@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/styles/styles-settings.css" rel="stylesheet" />
+    <link href="/styles/header.css" rel="stylesheet" />
+    <link href="/styles/main.css" rel="stylesheet" />
+    <link href="/styles/main-section1.css" rel="stylesheet" />
+    <link href="/styles/main-section2.css" rel="stylesheet" />
+    <link href="/styles/main-section3.css" rel="stylesheet" />
+    <title>Mountains-travel</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__conteiner">
+          <div class="header__items">
+            <div class="header__items_left">
+              <div class="header__items_logo">
+                <img src="/images/logo.svg" alt="Mountain" title="Mountain" />
+              </div>
+              <div class="header__items_nav">
+                <ul class="header__items navbar">
+                  <li>
+                    <a href="#" class="header__items navbar__list">О нас</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__items navbar__list">Туры</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__items navbar__list"
+                      >Подбор тура</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="header__items navbar__list">Блог</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__items navbar__list">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+              <!--header__items_nav-->
+            </div>
+            <div class="header__items_info">
+              <div class="header__items_info phone">
+                8 (800) 777-33-25
+                <div class="header__items_info phone-active">
+                  <img src="/icons/callback.png" width="55" height="55" />
+                  Позвонить
+                </div>
+              </div>
+              <div class="header__items_info search">
+                <form class="form__search">
+                  <input type="search" class="search-nav" />
+                </form>
+                <div class="header__items_icons info">
+                  <div class="autorization__icon"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--header__items_info-->
+        </div>
+
+        <div class="header__content">
+          <h1>Эверест</h1>
+          <button class="header__btn">Подробнее</button>
+        </div>
+
+        <div class="form__conteiner">
+          <form action="#" id="form" name="form" class="form__autorization">
+            <div class="form__content">
+              <span class="close__form"></span>
+              <h2>Авторизируйтесь</h2>
+              <label class="enter__email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+              />
+
+              <label class="enter__password">Password </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                data-reg="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+              />
+              <input type="submit" value="Войти" id="button" name="button" />
+              <label class="icons__social">
+                <a href="#">
+                  <img
+                    src="/icons/facebook.png"
+                    width="50"
+                    height="50"
+                    alt="facebook"
+                    title="facebook"
+                    class="icons__social_link"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="/icons/instagram.png"
+                    width="50"
+                    height="50"
+                    alt="instagram"
+                    title="instagram"
+                    class="icons__social_link"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="/icons/telegram.png"
+                    width="50"
+                    height="50"
+                    alt="telegram"
+                    title="telegram"
+                    class="icons__social_link"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="/icons/twitter.png"
+                    width="50"
+                    height="50"
+                    alt="twitter"
+                    title="twitter"
+                    class="icons__social_link"
+                  />
+                </a>
+              </label>
+            </div>
+
+            <!--form content-->
+          </form>
+        </div>
+
+        <!--form container-->
+      </header>
+      <main class="main">
+        <div class="main__container">
+          <div class="main__conteiner_content">
+            <div class="main__content_left">
+              <h3>
+                Туры с восхождением<br />
+                на вершины мира
+              </h3>
+              <p class="main__discription">
+                Мы являемся экспертами в организации <br />
+                альпинистских туров для опытных <br />
+                альпинистов и для новичков. Вы можете<br />
+                доверить нам полную организацию <br />
+                вашего приключения от А до Я и быть<br />
+                уверенными в качестве и безопасности<br />
+                восхождения.<br />
+                Наша компания предоставляет все<br />
+                необходимое: консультацию по выбору<br />
+                тура, перелет, визу, бронирование<br />
+                проживания, питание, оборудование,<br />
+                необходимое для восхождения, <br />
+                опытных гидов, полное сопровождение.
+              </p>
+            </div>
+            <div class="main__content_right">
+              <ul class="location">
+                <li class="location__icon">Денали</li>
+                <li class="location__icon">Орисаба</li>
+                <li class="location__icon">Котопахи</li>
+                <li class="location__icon">Аконкагуа</li>
+                <li class="location__icon">Маттерхорн</li>
+                <li class="location__icon">Эльбрус</li>
+                <li class="location__icon">Эверест</li>
+                <li class="location__icon">Килиманджаро</li>
+              </ul>
+              <img src="/images/map.svg" />
+            </div>
+          </div>
+          <!--main container content-->
+          <div class="cards__container">
+            <h4>Популярные туры</h4>
+            <div class="cards__travel">
+              <div class="cards">
+                <div class="cards__block">
+                  <div class="flag"></div>
+                  <p class="cards__country">Россия</p>
+                  <p class="cards__name_travel">Белуха</p>
+                  <ul class="cards__list">
+                    <li class="cards__list_price">4506 м</li>
+                    <li class="cards__list_price">12 дней</li>
+                    <li class="cards__list_price">от 45000 р</li>
+                  </ul>
+                  <div class="level">
+                    <div class="circle1"></div>
+                    <p class="level__medium">Средний уровень</p>
+                  </div>
+                </div>
+                <!--card1 conteiner-->
+              </div>
+              <div class="cards2">
+                <div class="cards__block">
+                  <div class="flag"></div>
+                  <p class="cards__country">Россия</p>
+                  <p class="cards__name_travel">Эльбрус</p>
+                  <ul class="cards__list">
+                    <li class="cards__list_price">5642 м</li>
+                    <li class="cards__list_price">10 дней</li>
+                    <li class="cards__list_price">от 25000 р</li>
+                  </ul>
+                  <div class="level">
+                    <div class="circle1"></div>
+                    <p class="level__medium">Средний уровень</p>
+                  </div>
+                </div>
+                <!--card2 conteiner-->
+              </div>
+              <div class="cards3">
+                <div class="cards__block">
+                  <div class="flag"></div>
+                  <p class="cards__country">Танзания</p>
+                  <p class="cards__name_travel">Килиманджаро</p>
+                  <ul class="cards__list">
+                    <li class="cards__list_price">5895 м</li>
+                    <li class="cards__list_price">4 дней</li>
+                    <li class="cards__list_price">от 55000 р</li>
+                  </ul>
+                  <div class="level">
+                    <div class="circle2"></div>
+                    <p class="level__medium">Простой уровень</p>
+                  </div>
+                </div>
+                <!--card3 conteiner-->
+              </div>
+              <div class="cards">
+                <div class="cards__block">
+                  <div class="flag"></div>
+                  <p class="cards__country">Гималаи</p>
+                  <p class="cards__name_travel">Эверест</p>
+                  <ul class="cards__list">
+                    <li class="cards__list_price">5895 м</li>
+                    <li class="cards__list_price">4 дней</li>
+                    <li class="cards__list_price">от 55000 р</li>
+                  </ul>
+                  <div class="level">
+                    <div class="circle2"></div>
+                    <p class="level__medium">Простой уровень</p>
+                  </div>
+                </div>
+                <!--card4 conteiner-->
+              </div>
+              <div class="cards">
+                <div class="cards__block">
+                  <div class="flag"></div>
+                  <p class="cards__country">Перу</p>
+                  <p class="cards__name_travel">Аконкагуа</p>
+                  <ul class="cards__list">
+                    <li class="cards__list_price">5895 м</li>
+                    <li class="cards__list_price">4 дней</li>
+                    <li class="cards__list_price">от 55000 р</li>
+                  </ul>
+                  <div class="level">
+                    <div class="circle2"></div>
+                    <p class="level__medium">Простой уровень</p>
+                  </div>
+                </div>
+                <!--card5 conteiner-->
+              </div>
+              <div class="cards">
+                <div class="cards__block">
+                  <div class="flag"></div>
+                  <p class="cards__country">Перу</p>
+                  <p class="cards__name_travel">Орисаба</p>
+                  <ul class="cards__list">
+                    <li class="cards__list_price">5895 м</li>
+                    <li class="cards__list_price">4 дней</li>
+                    <li class="cards__list_price">от 55000 р</li>
+                  </ul>
+                  <div class="level">
+                    <div class="circle2"></div>
+                    <p class="level__medium">Простой уровень</p>
+                  </div>
+                </div>
+                <!--card6 conteiner-->
+              </div>
+            </div>
+          </div>
+          <div class="arrows">
+            <div class="arrow__back"></div>
+            <div class="arrow__next"></div>
+          </div>
+        </div>
+        <!--main container-->
+        <section class="main__section1">
+          <div class="section__conteiner1">
+            <h5>Россия</h5>
+            <p class="section__name">
+              Более 15 туров для<br />
+              альпинистов всех уровней
+            </p>
+            <div class="grid__table">
+              <p class="row__1">Вершина</p>
+              <p class="row__1">Высота</p>
+              <p class="row__1">Уровень</p>
+              <p class="row__1">Стоимость</p>
+
+              <p class="row__other">Эльбрус</p>
+              <p class="row__other">5642 м</p>
+              <p class="row__other">Средний</p>
+              <p class="row__other">от 25 000 р</p>
+
+              <p class="row__other">Казбек</p>
+              <p class="row__other">5033 м</p>
+              <p class="row__other">Сложный</p>
+              <p class="row__other">от 30 000 р</p>
+
+              <p class="row__other">Белуха</p>
+              <p class="row__other">4506 м</p>
+              <p class="row__other">Простой</p>
+              <p class="row__other">от 30 000 р</p>
+
+              <p class="row__other">Дыхтау</p>
+              <p class="row__other">5204 м</p>
+              <p class="row__other">Сложный</p>
+              <p class="row__other">от 40 000 р</p>
+            </div>
+            <button class="view__all">Смотреть все</button>
+          </div>
+          <!--section__conteiner1-->
+        </section>
+        <section class="main__section2">
+          <div class="section__conteiner2">
+            <h6>Блог</h6>
+            <aside class="aside">
+              <div class="section__content_left">
+                <div class="section__content">
+                  <p class="date">15 января, 2020</p>
+                  <p class="section__content_news">
+                    Как подготовиться к первому<br />
+                    восхождению на вершину
+                  </p>
+                </div>
+                <div class="section__content">
+                  <div class="line__bottom">
+                    <p class="date">10 января, 2020</p>
+                    <p class="section__content_news">
+                      Фестиваль Alpika Freeski Аlpindustria Fest<br />
+                      Красная Поляна 13-16 февраля<br />
+                    </p>
+                  </div>
+                  <div class="line__bottom">
+                    <p class="date">20 декабря, 2019</p>
+                    <p class="section__content_news">
+                      Особенности альпинизма на Камчатке.<br />
+                      Все о Ключевой Сопке
+                    </p>
+                  </div>
+                  <div class="line__bottom">
+                    <p class="date">15 декабря, 2019</p>
+                    <p class="section__content_news">
+                      Что происходит с человеком на высоте<br />
+                      более 3000 метров?
+                    </p>
+                  </div>
+                  <div class="line__bottom">
+                    <p class="date">15 декабря, 2019</p>
+                    <p class="section__content_news">
+                      Что происходит с человеком на высоте<br />
+                      более 3000 метров?
+                    </p>
+                  </div>
+                  <button class="btn__news">Читать все новости</button>
+                </div>
+              </div>
+              <div class="section__content_right">
+                <img src="/images/travelMans.jpg" width="700" height="287" />
+                <p class="date2">15 января, 2020</p>
+                <p class="title__content_right">
+                  Как подготовиться к первому восхождению на вершину
+                </p>
+                <p class="text__blog">
+                  Перед тем, как отправиться на покорение вершины горы, нужно не
+                  только привести<br />
+                  в порядок свою физическую форму, но и тренировать
+                  выносливость, дыхательную и<br />
+                  сердечно-сосудистую системы. Именно на них приходится
+                  максимальная нагрузка на<br />
+                  высоте. Поэтому из-за недостаточной подготовки вы можете сойти
+                  на полпути. Чтобы<br />
+                  этого не случилось, занимайтесь плаванием, бегом, велосипедом
+                  и кардиотренировками.
+                </p>
+                <p class="text__blog">
+                  Как должны проходить тренировки? В первую очередь, тренировки
+                  должны проходить <br />
+                  постоянно, эффективно и интенсивно. Кроме того, нагрузка
+                  постепенно должна<br />
+                  увеличиваться. В случае с бегом обязательно делать это с
+                  учетом пульса. Грамотно <br />
+                  спланированный бег позволит не только сбросить вес, но и
+                  укрепит сердечную мышцу.<br />
+                  При беге с высоким пульсом вы позволите организму привыкнуть к
+                  недостатку<br />
+                  кислорода — то, с чем обязательно встретитесь в горах. Для
+                  укрепления физической <br />
+                  подготовки и повышения выносливости также бегайте в горку или
+                  в быстром темпе<br />
+                  поднимайтесь по лестницам. И не забудьте отдохнуть за неделю
+                  до путешествия!
+                </p>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <!--main section2-->
+        <section class="main__section3">
+          <div class="section3__conteiner">
+            <div class="yandex__map">
+              <script
+                type="text/javascript"
+                charset="utf-8"
+                async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A51db43ae7b690a00a354899aac7e99db9fbcdd25ffeda3a6fa211fd4b04ac9e7&amp;width=600&amp;height=457&amp;lang=ru_RU&amp;scroll=true"
+              ></script>
+            </div>
+            <div class="contact__info">
+              <p class="title__contact">Контакты</p>
+              <p class="address">Адрес:</p>
+              <p class="address2">
+                Санкт-Петербург,<br />
+                ул. Большая Конюшенная, 19
+              </p>
+              <p class="phone__number">Телефон:</p>
+              <p class="phone__number2">8 (800) 777-33-25</p>
+              <p class="email__address">E-mail:</p>
+              <p class="email__address2">info@mountain.ru</p>
+              <p class="social__contact">Социальные сети:</p>
+              <a class="social__contact2">
+                <img src="/icons/fb.svg" class="img__icons" />
+                <img src="/icons/insta.svg" class="img__icons" />
+                <img src="/icons/twit.svg" class="img__icons" />
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__conteiner">
+          <div class="footer__content">
+            <p class="copyright">Maroon 2020 Все права защищены</p>
+            <img src="/images/logo.svg" />
+            <p class="confidencial">Политика конфиденциальности</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--wrapper-->
+
+    <script src="/scripts/phoneCall.js"></script>
+    <script src="/scripts/formInput.js"></script>
+    <script src="/scripts/slider.js"></script>
+  </body>
+</html>

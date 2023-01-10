@@ -1,0 +1,74 @@
+.section3__conteiner {
+  font-family: "roboto";
+  display: flex;
+  color: black;
+  background-color: white;
+  padding-top: 128px;
+  padding-left: 98px;
+  padding-bottom: 140px;
+}
+.contact__info {
+  margin-left: 70px;
+}
+.title__contact {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  line-height: 0.7;
+  font-size: 52px;
+}
+.address {
+  margin-top: 50px;
+}
+.address2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.phone__number {
+  margin-top: 30px;
+}
+.phone__number2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.email__address {
+  margin-top: 30px;
+}
+.email__address2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.social__contact {
+  margin-top: 30px;
+}
+.social__contact2 {
+  line-height: 4;
+}
+.img__icons {
+  margin-right: 33px;
+  cursor: pointer;
+}
+.footer__conteiner {
+  background-color: #061b28;
+  padding: 50px 98px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  position: relative;
+}
+.copyright:after {
+  content: "\00a9";
+  position: absolute;
+  top: 4px;
+  left: 245px;
+}

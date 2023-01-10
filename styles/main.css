@@ -1,0 +1,317 @@
+.main__container {
+  color: black;
+  padding-left: 98px;
+
+  background-color: white;
+}
+.main__conteiner_content {
+  display: flex;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  padding-top: 140px;
+}
+.main__discription {
+  font-style: normal;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 360px;
+  height: 352px;
+  text-align: start;
+}
+.main__content_right {
+  margin-top: 223px;
+
+  position: relative;
+}
+ul.location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+}
+li {
+  list-style: none;
+}
+
+.location__icon:nth-child(1) {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+}
+.location__icon:nth-child(1)::before {
+  content: url("/icons/location__icon.svg");
+}
+.location__icon:nth-child(2) {
+  position: absolute;
+  top: 142px;
+  left: 85px;
+}
+.location__icon:nth-child(2)::before {
+  content: url("/icons/location__icon.svg");
+}
+.location__icon:nth-child(3) {
+  position: absolute;
+  top: 208px;
+  left: 140px;
+}
+.location__icon:nth-child(3)::before {
+  content: url("/icons/location__icon.svg");
+}
+.location__icon:nth-child(4) {
+  position: absolute;
+  top: 308px;
+  left: 175px;
+}
+.location__icon:nth-child(4)::before {
+  content: url("/icons/location__icon.svg");
+}
+
+.location__icon:nth-child(5) {
+  position: absolute;
+  top: 66px;
+  left: 340px;
+}
+.location__icon:nth-child(5)::before {
+  content: url("/icons/location__icon.svg");
+}
+.location__icon:nth-child(6) {
+  position: absolute;
+  top: 79px;
+  left: 450px;
+}
+.location__icon:nth-child(6)::before {
+  content: url("/icons/location__icon.svg");
+}
+.location__icon:nth-child(7) {
+  position: absolute;
+  top: 134px;
+  left: 575px;
+}
+.location__icon:nth-child(7)::before {
+  content: url("/icons/location__icon.svg");
+}
+.location__icon:nth-child(8) {
+  position: absolute;
+  top: 211px;
+  left: 440px;
+}
+.location__icon:nth-child(8)::before {
+  content: url("/icons/location__icon.svg");
+}
+
+/*map and discription*/
+.cards__container {
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  padding-top: 140px;
+  padding-left: 390px;
+}
+.cards__travel {
+  display: flex;
+  position: relative;
+  margin-top: 75px;
+  width: 1170px;
+  height: 326px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cards {
+  width: 370px;
+  height: 326px;
+  margin-right: 31px;
+  position: relative;
+}
+.cards:after {
+  content: "";
+  background: url("/images/beluha.jpg");
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cards__block {
+  width: 370px;
+  height: 326px;
+  position: relative;
+  margin-top: 42px;
+  margin-left: 40px;
+  z-index: 11;
+}
+
+.flag {
+  background-image: url("/icons/flag.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-color: rgba(252, 252, 252, 0.4);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+}
+.cards__country {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  margin-right: 7px;
+}
+
+.cards__country:before {
+  content: url("/icons/location__icon.svg");
+  margin-right: 7px;
+}
+.cards__name_travel {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  margin-top: 115px;
+}
+.cards__list {
+  display: flex;
+  margin-top: 20px;
+}
+.cards__list_price:nth-child(1) {
+  margin-right: 20px;
+  position: relative;
+}
+.cards__list_price:nth-child(1):before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 55px;
+  background-color: black;
+  width: 1px;
+  height: 13px;
+}
+.cards__list_price:nth-child(2) {
+  margin-right: 20px;
+  position: relative;
+}
+.cards__list_price:nth-child(2):before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 63px;
+  background-color: black;
+  width: 1px;
+  height: 13px;
+}
+.level {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.circle1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid white;
+  border-right: 3px solid black;
+  border-top-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom: 3px solid black;
+  transform: rotate(-45deg);
+  margin-right: 6px;
+}
+
+/*card 1*/
+.cards2 {
+  width: 370px;
+  height: 326px;
+  margin-right: 31px;
+  position: relative;
+}
+.cards2:after {
+  content: "";
+  background: url("/images/elbrus.jpg");
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.cards3 {
+  width: 370px;
+  height: 326px;
+  margin-right: 31px;
+  position: relative;
+}
+.cards3:after {
+  content: "";
+  background: url("/images/kilimanjaro.jpg");
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.circle2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid white;
+  border-right: 3px solid black;
+  border-top-right-radius: 50%;
+  border-top-right-radius: 50%;
+
+  transform: rotate(-45deg);
+  margin-right: 6px;
+}
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  padding-bottom: 130px;
+}
+.arrow__back {
+  width: 35px;
+  height: 35px;
+  background-color: #e6e8ea;
+  border-radius: 50%;
+  margin-right: 25px;
+  position: relative;
+  cursor: pointer;
+}
+.arrow__back:before {
+  content: url("/icons/arrow-back.svg");
+  position: absolute;
+  top: 8px;
+  left: 12px;
+}
+.arrow__next {
+  width: 35px;
+  height: 35px;
+  background-color: #e6e8ea;
+  border-radius: 50%;
+  margin-right: 98px;
+  position: relative;
+  cursor: pointer;
+}
+.arrow__next:before {
+  content: url("/icons/arrow-next.svg");
+  position: absolute;
+  top: 8px;
+  left: 12px;
+}

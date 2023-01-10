@@ -1,0 +1,78 @@
+.main__section1 {
+  background-image: url("/images/mountain__background.svg");
+  height: 757px;
+}
+.section__conteiner1 {
+  font-family: "Roboto";
+  text-align: center;
+}
+h5 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  padding-top: 100px;
+}
+.section__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.grid__table {
+  /* border: 1px solid white;*/
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 115px 115px 115px 115px;
+  column-gap: 70px;
+  row-gap: 25px;
+  justify-content: center;
+}
+
+.row__1 {
+  color: #a7aeb4;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  padding-bottom: 15px;
+}
+.row__other {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  /* padding: 25px 0px;*/
+
+  position: relative;
+}
+
+.row__other:before {
+  content: "";
+  height: 1px;
+  width: 303px;
+  background-color: #45545e;
+  position: absolute;
+  top: -13px;
+  left: -90px;
+  right: 0;
+}
+.row__other:last-child::after {
+  content: "";
+  height: 1px;
+  width: 860px;
+  background-color: #45545e;
+  position: absolute;
+  top: 40px;
+  left: -647px;
+  right: 0;
+}
+
+.view__all {
+  font-family: "Roboto";
+  margin-top: 75px;
+  padding: 16px 33px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
